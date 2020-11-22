@@ -11,3 +11,4 @@ def count_empty_strings(array)
 end
 
 count_strings([1, "hello", [], 5.01, "world", :name, { a: 1 }])
+puts "hello".is_string?
