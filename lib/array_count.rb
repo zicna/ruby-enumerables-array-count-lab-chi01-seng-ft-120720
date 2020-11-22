@@ -9,10 +9,10 @@ end
 
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
-  array.count do |element|
+  new_value = array.count do |element|
     element == ""
   end
-  
+  puts new_value
 end
 
 count_strings([1, "hello", [], 5.01, "world", :name, { a: 1 }])
