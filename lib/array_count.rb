@@ -18,3 +18,4 @@ end
 count_strings([1, "hello", [], 5.01, "world", :name, { a: 1 }])
 puts "hello".class == String
 puts "".class
+count_empty_strings([1, "hello", [], 5.01, "world", :name, { a: 1 }])
