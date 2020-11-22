@@ -4,7 +4,7 @@ def count_strings(array)
    new_value = array.count do |element|
     element.class ==String
   end
-  puts new_value
+  new_value
 end
 
 def count_empty_strings(array)
